@@ -1,0 +1,42 @@
+@import '../../../../styles/variables.scss';
+
+.desktop-header-submenu {
+  background-color: $color-secondary;
+  color: $color-secondary-body;
+}
+
+.desktop-header-submenu__list {
+  // border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+
+  // list-style-type: none;
+  //   margin: 0;
+  //   padding: 0;
+  //   overflow: hidden;
+}
+
+.headersubmenu__list-item {
+ display:inline;
+ line-height: 31px;
+  // float: left;
+}
+
+.headersubmenu__link {
+   display:inline-block;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+
+.headersubmenu__link:hover {
+  background-color: $color-heading;
+}
+
+.headersubmenu__link .text {
+  color: $color-secondary-body;
+  // font-size: 13.5px;
+  font-size: 15px;
+}

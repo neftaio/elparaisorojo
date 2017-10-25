@@ -1,0 +1,45 @@
+@import './StaticPage.scss';
+
+// .static-page__content {
+//   background-color: $color-background;
+// }
+
+.howbuy-steps {
+  display: flex;
+}
+
+.hoybuy-steps-item {
+  width: 33%;
+  min-width: 33%;
+}
+
+.hoybuy-steps-item-id {
+  background-color: $color-primary;
+  color: $color-secondary-body !important;
+  font-size: 28px !important;
+  width: 52px;
+  height: 52px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  padding-top: 6px;
+  margin-bottom: 8px;
+}
+
+.hoybuy-steps-item-list {
+  color: $color-body;
+  font-size: 13px;
+}
+
+.hoybuy-paymethods-title, .hoybuy-questions-title {
+  text-align: center;
+}
+
+.hoybuy-questions-content {
+  margin-top: 30px;
+}
+
+.static-page__title .heading h1 {
+  color: $color-primary !important;
+}

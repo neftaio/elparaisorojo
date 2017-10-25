@@ -1,0 +1,77 @@
+@import '../variables.scss';
+.card-cod {
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(139,0,0,.85);
+  margin: 20px;
+  position: relative;
+  margin-bottom: 50px;
+  transition: all .2s ease-in-out;
+}
+
+.card-cod:hover {
+  /*box-shadow: 0 5px 22px 0 rgba(0,0,0,.25);*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 54px;
+}
+
+.image-cod {
+  // height: 200px;
+  opacity: .9;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.image-cod:hover,
+.card-cod:hover .image-cod {
+  // height: 200px;
+  opacity: 1;
+}
+
+.text-cod {
+  background: #FFF;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.text-cod p {
+  margin-bottom: 0px;
+}
+
+.fab-cod {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  right: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #0066A2;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+}
+
+.fab-cod:hover {
+  background: #549D3C;
+  cursor: pointer;
+  -ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.text-cod-title {
+  color: $color-primary;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-cod-description {
+  color: $color-body;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: center;
+}

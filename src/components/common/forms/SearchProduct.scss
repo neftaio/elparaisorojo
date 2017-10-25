@@ -1,0 +1,25 @@
+@import '../../../styles/variables.scss';
+
+.search-product {
+  margin-top: 12px;
+}
+
+.search-product-form__text {
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1;
+  border-color: $color-heading;
+  padding: 1px 8px;
+  width: 150px;
+}
+
+.search-product-form__text:focus {
+  outline-offset: 0;
+  outline: none;
+  padding-top: 8px;
+}
+
+.desktop-header__search-container {
+  display: flex;
+}

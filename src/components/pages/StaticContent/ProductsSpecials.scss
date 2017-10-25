@@ -1,0 +1,49 @@
+@import './StaticPage.scss';
+
+.static-page__title .heading h1 {
+  color: $color-primary !important;
+}
+
+.specialsproducts-collage {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.specialsproducts-collage-p {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.specialsproducts-bump {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.specialsproducts-bump-p {
+  font-family: "peachcream2", "Open Sans", sans-serif;
+  color: #8b0000;
+  font-size: 40px;
+  text-align: center;
+}
+
+.specialsproducts-contacus-p {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.specialsproducts-contacus-img {
+  display: inline;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  margin: 0 15px;
+}
+
+.specialsproducts-contacus-li {
+  line-height: 54px;
+  font-style: italic;
+}
+
+.specialsproducts-contacus-form {
+  text-align: center;
+}

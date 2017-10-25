@@ -1,0 +1,23 @@
+.desktop-header-fulllogo__logo {
+    width: 100%;
+    // min-width: 129px;
+    min-width: 287px;
+    max-width: 129px;
+    height: 50px;
+    background: url('../../../../../static/logo.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop-header-fulllogo__logo-link {
+    align-self: center;
+    width: 100%;
+}
+
+.desktop-header-fulllogo__container {
+  // padding: 8px 15px;
+  padding: 0px 16px 10px 16px;
+}

@@ -1,0 +1,188 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins/card.scss';
+
+.static-page {
+  // padding-top: 35px;
+  padding-top: 0px;
+  // padding-bottom: 20px;
+  // padding-left: 10%;
+  // padding-right: 10%;
+  margin: 0px -32px 20px -32px;
+}
+
+.static-page__title {
+  text-align: center;
+}
+
+.static-page__content {
+  // margin-top: 30px;
+  margin-top: 0px;
+}
+
+.static-page__quotation {
+  text-align: center;
+  height: 250px;
+}
+
+.static-page__image {
+  text-align: center;
+  // margin: 30px 0px;
+  margin: 0px 0px;
+}
+
+.static-page__text {
+  display: flex;
+  margin: 30px 30px;
+}
+
+.static-page__steps__item {
+  margin: 15px 30px;
+  margin-top: 50px;
+}
+
+.static-page__steps__item__number {
+  color: $color-primary;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.static-page_info-container {
+  padding: 0 10px 0 20px;
+  width: 100%;
+}
+
+.product-list__sidebar {
+  width: 15%;
+  min-width: 200px;
+}
+
+.static-page__text-shortcentred {
+  padding: 0 10%;
+}
+
+
+
+
+
+
+
+.static-page__steps__item__description {
+  color: $color-primary;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.static-page__steps__item__link {
+  text-decoration: none;
+}
+
+.static-page__steps__item__image {
+  height: 100px;
+}
+
+.static-page__steps__item__container {
+  margin-top: 20px;
+}
+
+.static-page__steps__item__link {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.static-page__steps__item__text {
+  font-size: 1.25rem;
+  color: $color-secondary;
+  font-weight: bold;
+}
+
+.contcatus-form-group {
+  display: block;
+  margin: 15px 0;
+}
+
+.contcatus-form-group > label {
+  display: block;
+  text-align: left;
+  padding-left: 20%;
+  color: white;
+}
+
+.contcatus-form-group > input, .contcatus-form-group > textarea {
+  width: 64%;
+  border-radius: 3px;
+  line-height: 1.25rem;
+}
+
+form#contcatus-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: $color-primary;
+  border-radius: 5px;
+}
+
+//
+// Buttons
+//
+.button {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  cursor: pointer;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.5s, 0.5s;
+  transition-property: background, color;
+  transition-timing-function: ease, ease;
+  border-style: none;
+  border-radius: 3px 3px 3px 3px;
+  font-family: "Open Sans", sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+.button-font-medium {
+  font-size: 14px;
+}
+
+.button-primary {
+  background-color: $color-primary;
+  color: white;
+}
+
+.button-secondary {
+  background-color: white;
+  color: $color-primary;
+}
+
+.button-secondary:hover {
+  font-weight: bold;
+}
+
+.button-w200 {
+  width: 200px;
+}
+
+.static-page__title .heading  h1{
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.static-page-bold {
+  font-weight: bold;
+}
