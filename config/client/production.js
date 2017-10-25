@@ -13,7 +13,8 @@ export default {
           //baseUrl: 'http://0.0.0.0:8000/v1'
           //baseUrl: 'http://elparaisorojo:8000/v1'
           // baseUrl: 'https://nicistore.com/api/v1'
-          baseUrl: 'http://atlas.elparaisorojo.com/api/v1'
+          // baseUrl: 'http://atlas.elparaisorojo.com/api/v1'
+          baseUrl: 'http://52.36.153.119:8000/api/v1'
         }
     },
     googleAnalytics: {
