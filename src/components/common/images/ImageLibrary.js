@@ -44,9 +44,9 @@ class ImageLibrary extends React.Component {
         images.splice(idx, 1);
         this.props.onChange(images);
     };
-    
+
     //*** Template ***//
-    
+
     render() {
         let intlStore = this.context.getStore(IntlStore);
         return (
@@ -54,7 +54,7 @@ class ImageLibrary extends React.Component {
                 {this.props.images.map((img, idx) => {
                     return (
                         <div key={idx} className="image-library__placeholder">
-                            <img src={`//${img.url}`} />
+                            <img src={`${img.url}`} />
                             <div className="image-library__placeholder-overlay">
                                 <div className="image-library__placeholder-overlay-content">
                                     <div className="image-library__button">
