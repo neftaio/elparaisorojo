@@ -257,7 +257,7 @@ class ProductPage extends React.Component {
                                 {this.state.product.images && this.state.product.images.length > 0 ?
                                     <div className="product-page__gallery">
                                         <span style={{display: 'none'}} itemProp="image">
-                                            {`//${this.state.product.images[0].url}`}
+                                            {`${this.state.product.images[0].url}`}
                                         </span>
                                         <ImageGallery key={this.state.product.id} images={this.state.product.images} />
                                     </div>
@@ -349,7 +349,7 @@ class ProductPage extends React.Component {
                                     );
                                 })}
                             </div>
-                            
+
                             {!this.state.suggestionsLoading && this.state.suggestions.length === 0 ?
                                 <div className="product-page__suggestions product-page__suggestions--no-border"></div>
                                 :
