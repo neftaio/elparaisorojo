@@ -1,18 +1,19 @@
 @import './mixins/breakpoints';
 
-// $font-family-heading: 'Montserrat', sans-serif;
-$font-family-heading: 'peachcream2', 'Open Sans', sans-serif;
+$font-family-heading: 'Montserrat', sans-serif;
+// $font-family-heading: 'peachcream2', 'Open Sans', sans-serif;
+$font-family-footer: 'peachcream2', 'Open Sans', sans-serif;
 $font-family-body: 'Open Sans', sans-serif;
 $font-size-small: 13px;
 $font-size-xsmall: 14.5px;
 $font-size-medium: 16px;
 $font-size-large: 24px;
-$font-size-heading-small: 30px;
-$font-size-heading-medium: 48px;
-$font-size-heading-large: 62px;
-// $font-size-heading-small: 16px;
-// $font-size-heading-medium: 24px;
-// $font-size-heading-large: 30px;
+$font-size-heading-small-peach: 30px;
+$font-size-heading-medium-peach: 48px;
+$font-size-heading-large-peach: 62px;
+$font-size-heading-small: 16px;
+$font-size-heading-medium: 24px;
+$font-size-heading-large: 30px;
 $font-weight-normal: normal;
 $font-weight-bold: 700;
 
